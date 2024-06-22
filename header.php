@@ -1,48 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">  
-<meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <meta name="keywords" content="Food reciepe Keto meal plan" author="Affnan Makandar">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keto meal</title>
+  <title>Deltasoft</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Lumia
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light ">
-  <div class="container-fluid">
-    <a class="navbar-brand logo" href="#" ><img src="./assets/logo.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav  mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Reciepes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="about.php">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Meals
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Purchase</a></li>
-            <li><a class="dropdown-item" href="#">Diet chart</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Products </a></li>
-          </ul>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="connect.php">Connect</a>
-        </li>
-    
-    </div>
-  </div>
-</nav>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-</html>
+<body>
+
+  <!-- ======= Header ======= -->
+
+  <header id="header" class="fixed-top align-items-center">
+    <div class=" d-flex align-items-center">
+
+      <div class="logo me-auto ">
+        <!-- <img src="assets/img/company-logo/Deltasoft-logo1.jpeg" width="100%" alt=""> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/company-logo/Delta-soft-logo.jpeg" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
+          <li><a class="nav-link scrollto" href="about.php">About</a></li>
+          <li class="dropdown"><a href="services.php"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="staticwebsite.php">Static Website</a></li>
+              <li><a href="dynamic_web.php">Dynamic Website</a></li>
+              <li><a href="responsive_web.php">Responsive Website</a></li>
+              <li><a href="ecommercewebsite.php">Ecommerce Website</a></li>
+              <li><a href="LIMS.php">Laboratory Information System</a></li>
+              <li><a href="inventory_mgmt.php">Inventory Management System</a></li>
+              <li><a href="Accounts.php">Accounting</a></li>
+              <li><a href="Email_solution.php">Email Solution</a></li>
+              <li><a href="Mobile_app.php">Mobile Application</a></li>
+            </ul>
+          </li>
+         <li> <a href="contact.php" class="btn btn-info rounded-3 py-2 mt-2 px-4 ms-lg-3" id="contact">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links d-flex align-items-center">
+        <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
+        <a href="https://www.facebook.com/deltasoftsys?sfnsn=wiwspwa&mibextid=RUbZ1f" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/deltasoftsys?igsh=M3VkMjg5dWt1bzFr" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+        <!-- <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a> -->
+      </div>
+
+    </div>
+  </header>
+  <!-- End Header -->
